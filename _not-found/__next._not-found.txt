@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[9998,["/curriculum-vitae/_next/static/chunks/6016763923d277f5.js"],"default"]
-3:I[11740,["/curriculum-vitae/_next/static/chunks/6016763923d277f5.js"],"default"]
-0:{"buildId":"ruTQLJwPl0yDdJO19l7Dt","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[39756,["/curriculum-vitae/_next/static/chunks/42879de7b8087bc9.js"],"default"]
+3:I[37457,["/curriculum-vitae/_next/static/chunks/42879de7b8087bc9.js"],"default"]
+0:{"buildId":"8bFxLtsGcrwpAug9m51_W","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
