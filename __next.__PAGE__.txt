@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[85709,["/curriculum-vitae/_next/static/chunks/6016763923d277f5.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"ruTQLJwPl0yDdJO19l7Dt","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"border-solid-25 bg-neutral-0 relative flex h-fit min-h-28 w-fit min-w-44 items-center justify-center rounded-lg border px-2 py-4 transition-all duration-200 ease-in-out hover:border-solid-75 hover:cursor-pointer","children":["$","div",null,{"className":"flex flex-col items-center justify-center gap-1.5","children":[["$","span",null,{"className":"text-blue-100"}],["$","span",null,{"className":"text-size-base font-medium","children":"Hello World!"}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null
