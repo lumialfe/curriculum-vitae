@@ -1,3 +1,6 @@
+import {useRouter} from "next/router";
+import {useIntl} from "react-intl";
+
 export interface TestComponentProps {
 		title: string;
 }
@@ -5,6 +8,9 @@ export interface TestComponentProps {
 const TestComponent = ({
 	title,
 }: TestComponentProps) => {
+	const router = useRouter();
+	const { $t, locale = router.locale } = useIntl();
+
 	return (
 		<div
 			className="border-solid-25 bg-neutral-0 relative flex h-fit min-h-28 w-fit min-w-44 items-center justify-center rounded-lg border px-2 py-4 transition-all duration-200 ease-in-out hover:border-solid-75 hover:cursor-pointer"
