@@ -1,4 +1,5 @@
 import {TestComponent} from "@/src";
+import { LocationIcon, PhoneIcon } from "@/src/assets";
 
 export default function Home() {
   return (
@@ -9,9 +10,9 @@ export default function Home() {
          <span className="text-2xl">Junior Software Engineer</span>
        </span>
        <span className="flex items-end gap-6">
-         <span className="">Gijón, Spain</span>
-         <span className="">+34 633 332 848</span>
-         <span className="">lumialfe@hotmail.com</span>
+         <span className="flex items-center gap-2"><LocationIcon />Gijón, Spain</span>
+         <span className="flex items-center gap-2"><PhoneIcon />+34 633 332 848</span>
+         <span className=""><a href="mailto:lumialfe@hotmail.com">lumialfe@hotmail.com</a></span>
          <span className="">LinkedIn</span>
          <span className="">GitHub</span>
        </span>
