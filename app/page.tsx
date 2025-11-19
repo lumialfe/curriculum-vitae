@@ -3,10 +3,17 @@ import {TestComponent} from "@/src";
 export default function Home() {
   return (
    <div className="flex flex-col items-center justify-center w-full max-w-screen">
-     <header className="flex items-center justify-between w-full h-30 bg-red-500">
-       <span className="flex flex-col items-start justify-around gap-2 max-w-60">
-         <span className="text-4xl text-wrap font-bold">Luis Miguel Alonso</span>
-         <span>Junior Software Engineer</span>
+     <header className="flex items-center justify-between w-full h-40 ps-6 pe-6 bg-red-500">
+       <span className="flex flex-col items-start justify-around gap-2">
+         <span className="text-5xl font-bold">Luis Miguel Alonso</span>
+         <span className="text-2xl">Junior Software Engineer</span>
+       </span>
+       <span className="flex items-end gap-6">
+         <span className="">Gijón, Spain</span>
+         <span className="">+34 633 332 848</span>
+         <span className="">lumialfe@hotmail.com</span>
+         <span className="">LinkedIn</span>
+         <span className="">GitHub</span>
        </span>
      </header>
      
