@@ -29,9 +29,9 @@ const Header = ({
 		<span className="flex items-end gap-6">
          <span className="flex items-center gap-2"><LocationIcon />{`${location.city}, ${location.country}`}</span>
          <span className="flex items-center gap-2"><PhoneIcon />{contact.phone && formatPhoneNumber(contact.phone.countryCode, contact.phone.number)}</span>
-         <span className="flex items-center gap-2"><a href="mailto:lumialfe@hotmail.com">lumialfe@hotmail.com</a></span>
-         <span className="flex items-center gap-2">LinkedIn</span>
-         <span className="flex items-center gap-2">GitHub</span>
+         <span className="flex items-center gap-2"><a href={`mailto${contact.email}`}>{contact.email}</a></span>
+         <span className="flex items-center gap-2"><a href={contact.linkedin}>LinkedIn</a></span>
+         <span className="flex items-center gap-2"><a href={contact.github}>GitHub</a></span>
        </span>
 		</header>
 	)
