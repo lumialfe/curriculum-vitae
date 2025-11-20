@@ -1,6 +1,13 @@
 import { Header } from "../src/components";
 import {personalData} from "@/src/data/personal-data";
+import {useTranslations} from 'next-intl';
+
+
 export default function Home() {
+/*
+const t = useTranslations('HomePage');
+return <h1>{t('title')}</h1>;
+*/
 		return (
    <div	className="">
 					<Header image="/img/me.jpg" {...personalData}/>
@@ -56,7 +63,7 @@ export default function Home() {
      </main>
      
      <footer className="flex items-center justify-center w-full bg-purple-500">
-       I'm the footer
+       I&#39;m the footer
      </footer>
    </div>
   );
