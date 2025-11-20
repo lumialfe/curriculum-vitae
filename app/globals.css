@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
+
+h1 {
+  font-size: var(--text-5xl) /* 3rem = 48px */;
+  line-height: var(--tw-leading, var(--text-5xl--line-height) /* 1 */);
+  --tw-font-weight: var(--font-weight-bold) /* 700 */;
+  font-weight: var(--font-weight-bold) /* 700 */;
+}
+
+h2 {
+  font-size: var(--text-3xl) /* 1.875rem = 30px */;
+  line-height: var(--tw-leading, var(--text-3xl--line-height) /* calc(2.25 / 1.875) ≈ 1.2 */);
+  --tw-font-weight: var(--font-weight-semibold) /* 700 */;
+  font-weight: var(--font-weight-semibold) /* 700 */;
+}
+
+h3 {
+  font-size: var(--text-2xl) /* 1.5rem = 24px */;
+  line-height: var(--tw-leading, var(--text-2xl--line-height) /* calc(2 / 1.5) ≈ 1.3333 */);
+  --tw-font-weight: var(--font-weight-semibold) /* 600 */;
+  font-weight: var(--font-weight-semibold) /* 600 */;
+}
