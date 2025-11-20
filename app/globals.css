@@ -45,3 +45,10 @@ h3 {
   --tw-font-weight: var(--font-weight-semibold) /* 600 */;
   font-weight: var(--font-weight-semibold) /* 600 */;
 }
+
+h4 {
+    font-size: var(--text-xl) /* 1.25rem = 20px */;
+    line-height: var(--tw-leading, var(--text-xl--line-height) /* calc(1.75 / 1.25) = 1.4 */);
+    --tw-font-weight: var(--font-weight-medium) /* 500 */;
+    font-weight: var(--font-weight-medium) /* 500 */;
+}
